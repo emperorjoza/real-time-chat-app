@@ -1,0 +1,31 @@
+/* src/components/MessageInput.css */
+
+.message-input-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .message-input {
+    width: 80%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .send-button {
+    width: 15%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
